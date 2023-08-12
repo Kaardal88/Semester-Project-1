@@ -1,6 +1,40 @@
 header{
-width: 100%;
+    width: 100%;
     position: relative;
     height: 150px;
     background-color: rgb(157, 199, 67);
+    margin:0;
+    padding: 5px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header-logo{
+    width: 7%;
+    margin: 5px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav{
+    vertical-align: top;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 95px;
+    display:inline-flex;
+    margin-left: 65%;
+    position: sticky;
+}
+
+.nav-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
 }
