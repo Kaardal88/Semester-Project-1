@@ -71,13 +71,13 @@ nav{
     height: 350px;
   }
   #slide-1:target ~ .image-container {
-    left: 0px;
+    right: 0px;
   }
   #slide-2:target ~ .image-container {
-    left: -750px;
+    right: -750px;
   }
   #slide-3:target ~ .image-container {
-    left: -1500px;
+    right: -1500px;
   }
   .buttons {
     position:sticky;
