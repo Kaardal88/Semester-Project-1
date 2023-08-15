@@ -1,7 +1,7 @@
-* {
+*, *::before, *::after {
   box-sizing: border-box;
-  padding:0;
   margin: 0;
+  padding: 0;
 }
 header{
     width: 100%;
@@ -12,6 +12,20 @@ header{
     padding: 0;
 }
 
+.header-content{
+  max-width: 1800px;
+  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -19,9 +33,11 @@ body{
 }
 
 #header-logo{
-    width: 7%;
-    margin: 5px;
-    max-width: flex;
+    height: 150px;
+    padding: 0px;
+    margin-left: 3%;
+    display: block;
+    
 }
 
 ul{
@@ -29,8 +45,14 @@ ul{
   margin: 0;
 }
 
+a{
+  padding: 0;
+  margin: 0;
+}
+
 nav li{
     display: inline-block;
+    flex-direction: row;
 }
 
 .desktop-nav{
@@ -40,7 +62,7 @@ nav li{
     margin: 0;
     margin-top: 5%;
     display:inline-flex;
-    margin-left: 65%;
+    
   }
 
   nav a {
@@ -56,12 +78,12 @@ nav li{
     
 }
 
-.header-content a {
+li a {
   padding: 0px;
   margin: 0;
 }
 
-/*.slider {
+.slider {
     width: 750px;
     height: 350px;
     background-color: yellow;
@@ -70,6 +92,7 @@ nav li{
     margin-top: 5%;
     text-align: center;
     overflow: hidden;
+    display: flex;
   }
   .image-container {
     width: 750px;
@@ -111,4 +134,43 @@ nav li{
     width: 10px;
     border-radius: 50px;
     background-color: rgb(0, 0, 0);
-  }*/
+  }
+
+  .decorative-brake-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .inspiration-text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding: 30px;
+  }
+
+  .funfact-homescreen-ad{
+    width:90%;
+    height:450px;
+    background-color: rgb(210, 250, 245);
+    display: flex;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+  }
+
+  .funfact-homescreen-h1{
+    font-size: x-large;
+    display: flex;
+    
+    margin-left: 10%;
+    margin-top: 5%;
+   }
+
+   .funfact-homescreen-h2{
+    margin-left:-11%;
+   }
+
