@@ -6,14 +6,22 @@
 header{
     width: 100%;
     position: relative;
-    height: 150px;
+    height: 155px;
     background-color: rgb(157, 199, 67);
     margin:0;
     padding: 0;
+    box-shadow:0;
+}
+
+.main-view{
+    max-width: 1440px;
+    max-height: 100%;
+    margin: 0 auto;
+    
 }
 
 .header-content{
-  max-width: 1800px;
+  max-width: 1440px;
   width: 100%;
   max-height: 100%;
   position: absolute;
@@ -151,26 +159,23 @@ li a {
     padding: 30px;
   }
 
-  .funfact-homescreen-ad{
-    width:90%;
-    height:450px;
-    background-color: rgb(210, 250, 245);
-    display: flex;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
-  }
-
-  .funfact-homescreen-h1{
-    font-size: x-large;
+  .funfacts-rectangle{
+    background: burlywood;
+    width: 1440px;
+    height: 450px;
     display: flex;
     
-    margin-left: 10%;
-    margin-top: 5%;
-   }
+  }
 
-   .funfact-homescreen-h2{
-    margin-left:-11%;
-   }
+  #funfact-rectangle-h1{
+    margin-left: 5%;
+   
+  }
+
+  #funfact-rectangle-p {
+    margin-left: 3%;
+    margin-top: 10%;
+    
+  }
+
 
