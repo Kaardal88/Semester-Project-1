@@ -168,14 +168,21 @@ li a {
   }
 
   #funfact-rectangle-h1{
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-top: 8%;
    
   }
 
   #funfact-rectangle-p {
-    margin-left: 3%;
-    margin-top: 10%;
-    
+    margin-left: -11.5%;
+    margin-top: 12%;
+  }
+
+  .the-owl {
+    display: flex;
+    margin-left: 50%;
+    height: 550px;
+    margin-bottom: 10%;
   }
 
 
