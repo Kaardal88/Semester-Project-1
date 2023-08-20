@@ -10,7 +10,7 @@ header{
     margin:0;
     padding: 0;
     background: #9DC743;
-box-shadow: 0px 2px 4px 0px #727272, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
+box-shadow: 0px 4px 4px 0px #727272, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
 z-index: 1000;
 }
 
@@ -150,6 +150,7 @@ li a {
     width: 100%;
     padding: 0;
     margin: 0;
+    box-shadow: 0px 3px 0px 0px #727272;
   }
 
   .inspiration-text{
@@ -160,7 +161,7 @@ li a {
   }
 
  .home-info-container{
-  /*todo: box shadow*/
+  box-shadow: 0px 5px 4px 0px #727272
  }
 
  .home-info-row{
@@ -180,9 +181,7 @@ li a {
  }
 
  .home-info-content-block-img{
- 
- 
-  padding: 10%;
+ padding: 10%;
  }
 
  .content-background-color-green{
@@ -229,7 +228,7 @@ li a {
   border-radius: 50px;
 }
 
-.footer{
+.footer-container{
   position: relative;
   display: flex;
   flex-direction: row;
@@ -240,7 +239,46 @@ li a {
   box-sizing: border-box;
   background-image: linear-gradient(to top, rgba(157, 199, 67, 1), rgba(157, 199, 67, 0)); 
 }
+
+.footer-content{
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cms-text{
+  font-size: large;
+}
   
+.social-media-icons{
+  display: flex;
+  justify-content: center;
+  }
+
+  .social-media-row{
+    display: flex;
+  }
+
+  .facebook-logo{
+    width: auto;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 10%;
+  }
+
+  .instagram-logo{
+    width: auto; 
+    height: 50px;
+    margin-top: 10%;
+
+  }
+
+  .x-logo{
+    width: auto;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10%;
+  }
 
 
 
