@@ -5,18 +5,20 @@
 }
 header{
     width: 100%;
-    position: relative;
+    position: fixed;
     height: 155px;
-    background-color: rgb(157, 199, 67);
     margin:0;
     padding: 0;
-    box-shadow:0;
+    background: #9DC743;
+box-shadow: 0px 2px 4px 0px #727272, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
+z-index: 1000;
 }
 
 .main-view{
     max-width: 1440px;
     max-height: 100%;
     margin: 0 auto;
+    padding-top: 155px;
     
 }
 
@@ -145,8 +147,6 @@ li a {
   }
 
   .decorative-brake-image{
-    display: flex;
-    justify-content: center;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -159,82 +159,45 @@ li a {
     padding: 30px;
   }
 
-  .funfact-rectangle{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    height: 350px;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: rgb(210, 250, 245);
-  }
+ .home-info-container{
+  /*todo: box shadow*/
+ }
 
-  #funfact-h1{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    width: 15%;
-    margin: 0;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-  }
-
-  #funfact-p{
-    position: absolute;
-    top: 50%;
-    left: 3%;
-    width: 30%;
-    margin: 0;
-    padding: 40px;
-    color: rgb(0, 0, 0);
-  }
-
-  #funfact-owl{
-    width: 50%;
-    height: 350px;
-}
-
-.themuseum-textbox{
-  position: relative;
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    width: 80%;
-    justify-content: space-between;
-    
-}
-
-/*.themuseum-imagebox{
+ .home-info-row{
   display: flex;
-  flex-direction:row;
-  width: 100%;
-  height: 300px;
-  margin: 0;
-  padding: 0;
-}*/
-
-.test{
   flex-direction: row;
-  position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 350px;
-    padding: 50px;
-    box-sizing: border-box;
-    background: linear-gradient(to right, rgb(157, 199, 67) 50%, rgb(255,222,23) 50%);
-}
+  width: 100%;
+  height: 400px;
 
-#themuseum-p{
-  font-size: large;
-  text-align: center;
-}
+ }
 
-#themuseum-h1{
+ .home-info-content-block{
+  width: 50%;
   text-align: center;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+
+ .home-info-content-block-img{
+ 
+ 
+  padding: 10%;
+ }
+
+ .content-background-color-green{
+  background: rgb(157, 199, 67);
+ }
+
+ .content-background-color-yellow{
+  background: rgb(255,222,23);
+ }
+
+ .content-background-color-light-blue{
+  background: rgb(210, 250, 245)
+ }
+
+
 
 .button-1{
   border: none;
