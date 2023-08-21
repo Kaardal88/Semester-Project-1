@@ -208,15 +208,13 @@ li a {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: coral;
+  background-color: rgb(169, 211, 73);
   border-radius: 50px;
-  font-weight: 600;
-  font-size: large;
-}
+  }
 
 .button-2{
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px 52px;
   text-align: center;
   text-decoration: none;
@@ -233,7 +231,7 @@ li a {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 30%;
+  margin-top: 10%;
   height: 350px;
   padding: 20px;
   box-sizing: border-box;
@@ -247,7 +245,7 @@ margin-right: auto;
 }
 
 .cms-text{
-  font-size: large;
+  font-size: small;
 }
   
 .social-media-icons{
@@ -280,5 +278,20 @@ margin-right: auto;
     margin-top: 10%;
   }
 
+.to-the-top-btn{
+display: flex;
+}
 
+.to-the-top-content{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;;
+}
+
+.to-the-top-link{
+  margin: 0;
+  padding: 0;
+}
 
