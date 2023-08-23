@@ -375,17 +375,18 @@ display: flex;
 
 .cms-card{
   width: 100%;
-  height: 400px;
+  height: 100%;
   background-color: #9DC743;
-  margin: 40px 0 40px 0;
+  margin: 40px 0px 40px 0px;
   border-radius: 20px;
   box-shadow: 0px 4px 10px 0px #999999;
   flex-direction: column;
+  display: flex;
 }
 
 .for-kids-card{
   width: 100%;
-  height: 400px;
+  height: 100%;
   background-color: #FFDE17;
   margin: 40px 0 40px 0;
   border-radius: 20px;
@@ -394,7 +395,7 @@ display: flex;
 
 .teachers-card{
   width: 100%;
-  height: 400px;
+  height: 100%;
   background-color: #D2FAF5;
   margin: 40px 0 40px 0;
   border-radius: 20px;
@@ -403,7 +404,7 @@ display: flex;
 
 .researchers-card{
   width: 100%;
-  height: 400px;
+  height: 100%;
   background-color: #E0E0E0;
   margin: 40px 0 40px 0;
   border-radius: 20px;
@@ -414,36 +415,113 @@ display: flex;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 3%;
+  padding: 30px;
 }
 
 .kids-h1{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 3%;
+  padding: 30px;
 }
 
 .teachers-h1{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 3%;
+  padding: 30px;
 }
 
 .researchers-h1{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1%;
+  margin-top: 3%;
+  padding: 30px;
 }
 
 .cms-p{
   font-size: large;
-  text-align: center;
+  text-align: left;
   padding: 30px;
   line-height: 1.6rem;
 }
 
+.cms-info-text-container{
+  width: 50%;
+ }
 
+ .cms-img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-top: -25%;
+  margin-right: 3%;
+ }
+
+ .cms-img{
+  width: 25%;
+}
+
+.kids-info-text-container{
+  width: 50%;
+}
+
+.kids-p{
+  font-size: large;
+  text-align: left;
+  padding: 30px;
+  line-height: 1.6rem;
+  }
+
+  .kids-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -25%;
+  margin-right: 3%;
+  }
+
+  
+
+  .teacher-info-text-container{
+    width: 50%;
+  }
+
+  .teacher-p{
+    font-size: large;
+  text-align: left;
+  padding: 30px;
+  line-height: 1.6rem;
+  }
+
+  .teacher-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -15%;
+    margin-right: 3%;
+  }
+
+.research-info-text-container{
+  width: 50%;
+}
+
+.research-p{
+  font-size: large;
+  text-align: left;
+  padding: 30px;
+  line-height: 1.6rem;
+}
+
+.research-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: -15%;
+    margin-right: 3%;
+}
 
