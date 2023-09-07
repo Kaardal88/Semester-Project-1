@@ -237,26 +237,20 @@ li a {
 
 .hero-image{
   background-image: url(/images/celso-405219.jpg);
-  height: 100vh;
+  height: 1221px;
   top:155px;
-  width: 100%;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
-  
-  
- 
- 
-  
-}
+  }
 
 .hero-text-h1{
   display: flex;
   flex-direction: row;
   justify-content: left;
-  padding: 30px;
+  padding: 50px;
   color: white;
 }
 
@@ -269,6 +263,7 @@ li a {
   padding: 30px;
   color: white;
   margin-top: 750px;
+  opacity: 60%;
  
 }
 
@@ -284,7 +279,7 @@ li a {
   width: 100%;
   max-width: 100%;
   margin-left: 0px;
-  margin-top: 5%;
+  margin-top: 20%;
   justify-content: center;
   display: flex;
 }
@@ -338,10 +333,19 @@ li a {
   }
 
   .inspiration-text{
+    margin-top: 20%;
+    margin-bottom: 20%;
     text-align: center;
     font-weight: 700;
     font-size: 1.6rem;
     padding: 10%;
+    background-color: #E0E0E0;
+    
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0px 4px 4px 0px #000000, -500px 0px 1000px -100px rgba(150, 197, 201, 0.25) inset;
+    border-style: dotted;
+    border-radius: 20px;
   }
 
  .home-info-container{
@@ -351,6 +355,39 @@ li a {
  /*Mediascreen start*/
 
  @media  (max-width:748px) {
+  
+  .hero-text-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 30px;
+    color: white;
+    font-size: x-small;
+  }
+  
+  .hero-text-h2{
+    
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 30px;
+    color: white;
+    margin-top: 450px;
+    font-size: xx-small;   
+  }
+  .hero-image{
+    background-image: url(/images/celso-405219.jpg);
+    height: 650px;
+    top:155px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+  
+ 
 
   .desktop-nav{
     display: none;
