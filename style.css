@@ -312,7 +312,7 @@ li a {
 }
 
 .slider-img-container {
-  max-height: 750px;
+  max-height: 320px;
   width: 33.3333%;
   position: relative;
   float: left;
@@ -355,6 +355,10 @@ li a {
  /*Mediascreen start*/
 
  @media  (max-width:748px) {
+
+  .slider-frame{
+    height: 320px;
+  }
   
   .hero-text-h1{
     display: flex;
