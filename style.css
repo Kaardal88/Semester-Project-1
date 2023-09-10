@@ -336,6 +336,12 @@ li a {
 
  @media  (max-width:748px) {
 
+  .card-1, .card-2{
+
+  }
+  
+  
+
   .slider-frame{
     height: 320px;
   }
@@ -368,10 +374,6 @@ li a {
     background-size: cover;
     position: relative;
     }
-  
- .desktop-nav{
-    display: none;
-  }
 
   .home-info-container{
   margin-left: 3%;
@@ -791,11 +793,13 @@ display: flex;
 
 .card-1{
 background: rgba(210, 250, 245, 1);
-width: 450px;;
-height: 500px;
+width: 350px;;
+height: 400px;
 margin: 10px;
 border-radius: 20px;
 box-shadow: 0px 4px 10px 0px #999999;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 .card-2{
@@ -805,12 +809,14 @@ box-shadow: 0px 4px 10px 0px #999999;
   margin: 10px;
   border-radius: 20px;
   box-shadow: 0px 4px 10px 0px #999999;
+  margin-left: 3%;
+margin-right: 3%;
 }
 
 .card-1-h1{
   text-align:center;
   position: relative;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .card-2-h1{
@@ -820,8 +826,8 @@ box-shadow: 0px 4px 10px 0px #999999;
 }
 
 .card-1-img-container{
-  width: 450px;
-  height: 250px;
+  width: 350px;
+  height: 220px;
   background-size: cover;
 }
 
@@ -860,7 +866,7 @@ box-shadow: 0px 4px 10px 0px #999999;
     text-align: center;
     padding: 15px 20px;
     margin: 20px 50px;
-    margin-top: 25%;
+    margin-top: 10%;
     box-shadow: 0px 3px 7px 0px #999999, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
     border-radius: 20px;
 }
