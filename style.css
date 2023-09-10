@@ -5,7 +5,7 @@
 }
 
 *,
-{
+.main-view{
   scroll-behavior: smooth;
 }
 
@@ -84,35 +84,10 @@ body{
     display: block;
   }
 
-ul{
-  padding: 0;
-  margin: 0;
-}
-
 a{
   padding: 0;
   margin: 0;
 }
-
-nav li{
-    display: inline-block;
-    flex-direction: row;
-}
-
-.desktop-nav{
-    vertical-align: top;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    margin-top: 5%;
-    display:inline-flex;
-    
-  }
-
-  nav a {
-    padding: 0;
-    margin: 0;
-  }
 
 .nav-item{
     text-decoration: none;
@@ -215,6 +190,8 @@ li a {
   transform: rotate(-405deg);
 }
 
+/*Mediascreen for menu*/
+
 @media (max-width: 748px) {
   .menu-button-container {
     display: flex;
@@ -279,8 +256,6 @@ li a {
 }
 
 .hero-text-h2{
-  
-
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -290,12 +265,7 @@ li a {
   margin-top: 750px;
   opacity: 100%;
   text-transform: uppercase;
- 
-}
-
-
-
-
+ }
 
 /*image slider - start*/   
 
@@ -305,7 +275,7 @@ li a {
   width: 100%;
   max-width: 100%;
   margin-left: 0px;
-  margin-top: 20%;
+  margin-top: 5%;
   justify-content: center;
   display: flex;
 }
@@ -358,22 +328,6 @@ li a {
     box-shadow: 0px 3px 0px 0px #999999;
   }
 
-  .inspiration-text{
-    margin-top: 20%;
-    margin-bottom: 20%;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.6rem;
-    padding: 10%;
-    background-color: #E0E0E0;
-    
-    margin-left: 3%;
-    margin-right: 3%;
-    box-shadow: 0px 4px 4px 0px #000000, -500px 0px 1000px -100px rgba(150, 197, 201, 0.25) inset;
-    border-style: dotted;
-    border-radius: 20px;
-  }
-
  .home-info-container{
   box-shadow: 0px 4px 10px 0px #999999;
  }
@@ -396,8 +350,6 @@ li a {
   }
   
   .hero-text-h2{
-    
-  
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -417,9 +369,7 @@ li a {
     position: relative;
     }
   
- 
-
-  .desktop-nav{
+ .desktop-nav{
     display: none;
   }
 
@@ -452,8 +402,7 @@ li a {
   flex-direction: row;
   width: 100%;
   height: 400px;
-
- }
+}
 
  .home-info-container{
   margin-top: 8%;
@@ -473,42 +422,40 @@ li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: x-large;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding: 20px 30px;
-    margin: 20px 50px;
+    padding: 5px 10px;
+    margin: 20px 150px;
     margin-top: 15%;
     box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
-    border-radius: 50px;
+    border-radius: 20px;
+    font-family: myHeaderfont;
  }
 
  .go-to-funfacts:hover{
-  scale: 1.05;
+  scale: 1.03;
   background-color: #c2eb69;
  }
 
 
  .go-to-about-page{
   background-color: #9DC743;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: x-large;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 30px;
-    margin: 20px 50px;
-    margin-top: 15%;
-    box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
-    border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px 150px;
+  margin-top: 15%;
+  box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
+  border-radius: 20px;
+  font-family: myHeaderfont;
  }
 
  .go-to-about-page:hover{
@@ -523,10 +470,9 @@ li a {
  .home-info-content-block-img-museum{
   width: 50%;
   display: flex;
-margin-left: 25%;
-box-shadow: 0px 5px 10px 0px #363636;
-
- }
+  margin-left: 25%;
+  box-shadow: 0px 5px 10px 0px #363636;
+}
 
  .content-background-color-green{
   background: rgb(157, 199, 67);
@@ -539,10 +485,6 @@ box-shadow: 0px 5px 10px 0px #363636;
  .content-background-color-light-blue{
   background: rgb(210, 250, 245);
  }
-
-
-
-
 
 .footer-container{
   position: absolute;
@@ -615,78 +557,6 @@ display: flex;
 }
 
 /*ABOUT PAGE STARTS*/
-/*buttons on top of about page start*/
-
-.about-buttons-container{
-  display: flex;
-  justify-content: center;
-  position:fixed;
-  padding: 100px;
-  margin-left: 11%;
-  z-index: 1000;
-}
-
-.about-button-1{
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 15px 52px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: rgb(169, 211, 73);
-  border-radius: 50px;
-  box-shadow: 0px 2px 5px 0px #999999;
-}
-
-.about-button-2{
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 15px 52px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: rgba(255, 222, 23, 1);
-  border-radius: 50px;
-  box-shadow: 0px 2px 5px 0px #999999;
-}
-
-.about-button-3{
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 15px 52px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: rgba(210, 250, 245, 1);
-  border-radius: 50px;
-  box-shadow: 0px 2px 5px 0px #999999;
-}
-
-.about-button-4{
-  border: none;
-  color: rgb(0, 0, 0);
-  padding: 15px 52px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: rgba(217, 217, 217, 1);
-  border-radius: 50px;
-  box-shadow: 0px 2px 5px 0px #999999;
-}
-
-/*buttons on top of about page end*/
 
 .cards-about {
   margin: 0 auto;
@@ -709,8 +579,7 @@ display: flex;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   background-color: #d1d1d1;
-  
-}
+  }
 
 .card-content-about {
   line-height: 1.6;
@@ -720,8 +589,7 @@ display: flex;
   box-shadow: 0 4px 5px 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  
-}
+  }
 
 .cms-color{
   background-color:#c2eb69;
@@ -758,11 +626,6 @@ display: flex;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   
-}
-
-.card-about-info i {
-  font-size: 0.9em;
-  margin-right: 8px;
 }
 
 /*ABOUT PAGE END*/
@@ -841,11 +704,6 @@ display: flex;
   
 }
 
-.card-contact-info i {
-  font-size: 0.9em;
-  margin-right: 8px;
-}
-
 .contact-visit-card{
   background-color:#c2eb69;
 }
@@ -858,21 +716,6 @@ display: flex;
 {
   color: white;
 }
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*EVENTS PAGE START*/
 
