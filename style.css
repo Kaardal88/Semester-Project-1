@@ -251,20 +251,13 @@ li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 100px;
+  padding: 75px;
   color:#baf3ec;
 }
 
-.hero-text-h2{
-  display: flex;
-  flex-direction: row;
+.about-inspo-text{
   text-align: center;
-  justify-content: center;
-  padding: 30px;
-  color:#baf3ec;
-  margin-top: 750px;
-  opacity: 100%;
-  text-transform: uppercase;
+  margin-top: 5%;
  }
 
 /*image slider - start*/   
@@ -336,34 +329,17 @@ li a {
 
  @media  (max-width:748px) {
 
-  .card-1, .card-2{
-
+  .go-to-funfacts{
+    padding: 3px 8px;
+    margin: 10px 20px;
+    
   }
-  
-  
 
   .slider-frame{
     height: 320px;
   }
   
-  .hero-text-h1{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 30px;
-    color:#baf3ec;
-    font-size: x-small;
-  }
   
-  .hero-text-h2{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    padding: 30px;
-    color:#baf3ec;
-    margin-top: 280px;
-    font-size: xx-small;   
-  }
   .hero-image{
     background-image: url(/images/celso-405219.jpg);
     height: 650px;
@@ -419,21 +395,23 @@ li a {
  }
 
  .go-to-funfacts{
-  background-color: #9DC743;
+  width: 50%;
+  background-color:#FFDE17;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: x-large;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding: 5px 10px;
-    margin: 20px 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: 15%;
     box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
     border-radius: 20px;
     font-family: myHeaderfont;
+    margin-left: auto;
+    margin-right: auto;
  }
 
  .go-to-funfacts:hover{
@@ -443,21 +421,23 @@ li a {
 
 
  .go-to-about-page{
+  width: 50%;
   background-color: #9DC743;
-  color: black;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: x-large;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 10px;
-  margin: 20px 150px;
-  margin-top: 15%;
-  box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
-  border-radius: 20px;
-  font-family: myHeaderfont;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15%;
+    box-shadow: 0px 3px 7px 0px #4d4d4d, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
+    border-radius: 20px;
+    font-family: myHeaderfont;
+    margin-left: auto;
+    margin-right: auto;
  }
 
  .go-to-about-page:hover{
@@ -470,10 +450,11 @@ li a {
  }
 
  .home-info-content-block-img-museum{
-  width: 50%;
+  width: 52%;
   display: flex;
   margin-left: 25%;
   box-shadow: 0px 5px 10px 0px #363636;
+  
 }
 
  .content-background-color-green{
@@ -948,10 +929,15 @@ margin-right: 3%;
   display: block;
   text-align: center;
   padding: 15px 20px;
-  margin: 10% 40%;
+  margin: 10% 30%;
   margin-top: 10%;
   box-shadow: 0px 3px 7px 0px #999999, -707px 4px 113px -79px rgba(250, 255, 0, 0.25) inset;
-  border-radius: 20px;
+  border-radius: 50px;
+}
+
+.back-btn:hover{
+  transform: scale(1.03);
+  transition: 500ms;
 }
 
 .mainastro-h1{
