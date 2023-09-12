@@ -2,12 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
-*,
-.main-view{
-  scroll-behavior: smooth;
-}
 
 @font-face{
   font-family: myHeaderfont;
@@ -193,6 +190,8 @@ li a {
 /*Mediascreen for menu*/
 
 @media (max-width: 748px) {
+
+
   .menu-button-container {
     display: flex;
   }
@@ -328,6 +327,30 @@ li a {
  /*Mediascreen start*/
 
  @media  (max-width:748px) {
+
+    iframe{
+    max-width: 75%;
+    margin-left: 12.4%;
+  }
+
+  .card-content-contact{
+    width: 75%;
+    margin-left: auto;
+margin-right: auto;
+  }
+
+  .cards-contact{
+    margin-left: auto;
+margin-right: auto;
+
+  }
+
+  .card-image-contact{
+  max-width: 75%;;
+max-height: 200px;
+margin-left: auto;
+margin-right: auto;
+  }
 
   .go-to-funfacts{
     padding: 3px 8px;
@@ -647,8 +670,7 @@ display: flex;
   box-shadow: 0 4px 5px 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  
-}
+  }
 
 .cms-color{
   background-color:#c2eb69;
